@@ -38,6 +38,7 @@ export default function Home() {
       {/* Header */}
       <Header />
 
+
       {/* Main content (Leftbar and TabOne with dynamic cards) */}
       <div className="flex gap-4">
         <div className="w-1/6 bg-gray-200">
@@ -47,6 +48,8 @@ export default function Home() {
         <div className="w-5/6 flex flex-col gap-6">
           <Tab cards={cards} title="Top song" />
           <Tab cards={cards} title="Top song new" />
+
+     
         </div>
       </div>
     </div>
